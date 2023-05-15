@@ -30,6 +30,10 @@
     font-family: arial;
 }
 
+#after{
+  padding-top: 4%;
+}
+
 .card a {
   border: none;
   outline: 0;
@@ -129,7 +133,11 @@
   }
   
 /* For phone compatability */
-@media(max-width:750px){
+@media(max-width:350px){
+/* 
+  body{
+    background-color: black;
+  } */
   .navbar a {
     text-align: center;
     display: inline-flex;
