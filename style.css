@@ -134,10 +134,10 @@
   
 /* For phone compatability */
 @media(max-width:300px){
-/* 
+
   body{
     background-color: black;
-  } */
+  }
   .navbar a {
     text-align: center;
     display: inline-flex;
