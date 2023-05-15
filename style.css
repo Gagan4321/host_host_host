@@ -142,11 +142,7 @@
 /* For phone compatability */
 
   @media(max-width:750px){
-    
-
-    /* body{
-        background-color: #000;
-    } */
+  
     .navbar a {
       text-align: center;
       display: inline-flex;
