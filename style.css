@@ -133,7 +133,7 @@
   }
   
 /* For phone compatability */
-@media(max-width:350px){
+@media(max-width:300px){
 /* 
   body{
     background-color: black;
@@ -143,7 +143,7 @@
     display: inline-flex;
     color: #eeeeee;
     padding: 15px;
-    padding-left: 4%;
+    padding-left: 3%;
     font-weight: bolder;
     text-decoration: none;
     font-size: 18px;
