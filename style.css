@@ -128,6 +128,20 @@
     }
   }
   
+/* For phone compatability */
+@media(max-width:750px){
+  .navbar a {
+    text-align: center;
+    display: inline-flex;
+    color: #eeeeee;
+    padding: 15px;
+    padding-left: 4%;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 18px;
+  }
+}
+
   @media(max-width:750px){
     /* body{
       background-color: black;
