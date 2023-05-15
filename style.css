@@ -106,7 +106,9 @@
     .sidenav a {font-size: 18px;}
   }
   @media(max-width:991px){
-    
+    /* body{
+      background-color: black;
+    } */
     .navbar a {
       text-align: center;
       display: inline-flex;
@@ -116,6 +118,10 @@
       font-weight: bolder;
       text-decoration: none;
       font-size: 18px;
+    }
+
+    #after{
+      padding-top: 8%;
     }
     .container2{
         display:flex;
@@ -130,30 +136,13 @@
     .container3{
         display: none;
     }
+
   }
   
 /* For phone compatability */
-@media(max-width:300px){
-
-  body{
-    background-color: black;
-  }
-  .navbar a {
-    text-align: center;
-    display: inline-flex;
-    color: #eeeeee;
-    padding: 15px;
-    padding-left: 3%;
-    font-weight: bolder;
-    text-decoration: none;
-    font-size: 18px;
-  }
-}
 
   @media(max-width:750px){
-    /* body{
-      background-color: black;
-    } */
+    
 
     /* body{
         background-color: #000;
@@ -168,6 +157,9 @@
       text-decoration: none;
       font-size: 18px;
     }
+    #after{
+      padding-top: 7%;
+    }
     .container2{
         display:flex;
         gap: 20px;
@@ -180,6 +172,27 @@
     }
     .container3{
         display: flex;
+    }
+  }
+  
+
+  @media(max-width:500px){
+
+    body{
+      background-color: rgb(163, 121, 121);
+    }
+    .navbar a {
+      text-align: center;
+      display: inline-flex;
+      color: #eeeeee;
+      padding: 15px;
+      padding-left: 2%;
+      font-weight: bolder;
+      text-decoration: none;
+      font-size: 18px;
+    }
+    #after{
+      padding-top: 8%;
     }
   }
   
