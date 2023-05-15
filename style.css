@@ -178,9 +178,6 @@
 
   @media(max-width:500px){
 
-    /* body{
-      background-color: rgb(163, 121, 121);
-    } */
     .navbar a {
       text-align: center;
       display: inline-flex;
